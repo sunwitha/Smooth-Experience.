@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "smooth_experience",
+  "version": "${version}",
+  "name": "Smooth Experience",
+  "description": "Smooth scale and fade transitions for the inventory, player list and camera perspective.",
+  "authors": ["onepiom"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["onepiom.smooth.SmoothExperienceClient"]
+  },
+  "mixins": [
+    "smooth_experience.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

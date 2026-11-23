@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "onepiom.smooth.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "InventoryScreenMixin",
+    "PlayerListHudMixin",
+    "CameraMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
